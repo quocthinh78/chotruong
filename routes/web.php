@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('foo', function () {
     return 'Hello World';
 });
-Route::get('thinh/foo', function () {
+Route::get('thinh/fo', function () {
     return 'Hello';
 });
 Route::get('name/{rr}', function ($name) {
